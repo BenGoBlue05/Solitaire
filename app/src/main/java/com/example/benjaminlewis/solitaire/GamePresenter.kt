@@ -12,7 +12,7 @@ object GamePresenter {
     }
     fun onDeckTap(){
         GameModel.onDeckTap()
-        view?.update(GameModel)
+        view?.update()
     }
 
     fun onWasteTap(){
